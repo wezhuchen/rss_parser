@@ -1,0 +1,8 @@
+{
+    "version" : "1.00.000",
+    "project_name" : "rss_parser",
+    "env" : "local",
+    "log_max_bytes": 10485760,
+    "log_backup_count": 64,
+    "batch_data_limit" : 500
+}
