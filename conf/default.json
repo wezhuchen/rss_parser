@@ -4,5 +4,9 @@
     "env" : "local",
     "log_max_bytes": 10485760,
     "log_backup_count": 64,
-    "batch_data_limit" : 500
+    "batch_data_limit" : 500,
+    "local" : {
+        "cron_enabled" : "1",
+        "debug_mode" : "1"
+    }
 }

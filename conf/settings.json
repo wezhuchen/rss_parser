@@ -1,0 +1,23 @@
+{
+    "mobile01":{
+        "enabled" : 1,
+        "test_mode": 1,
+        "class_name" : "ParserCore",
+        "exec_method_name" : "xml_parser",
+        "rss" : "https://www.mobile01.com/rss/newtopics.xml",
+        "user": "",
+        "password": "",
+        "options" : {
+            "item_format": "item",
+            "have_image_tag": "",
+            "db_mapping" : 
+            {
+                    "title" : "title",
+                    "description" : "content",
+                    "link" : "link",
+                    "pubDate" : "pubDate"
+            }               
+        }        
+    }
+
+}
