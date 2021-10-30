@@ -6,13 +6,15 @@
 .
 ├── jobs.py                                             # 主節點
 ├── conf                                                # 設定檔                                                
-|    └── default.json                                     # 基本設定檔
-|    
+|    ├──  default.json                                     # 基本設定檔
+|    └── settings.json                                    # 網站rss config
 ├── core                                                # 模組
-| 
+|    └── parser.py                                    # rss 解析器
 ├── utils                                               # 共用模組  
-|    
-|
+|    ├──  jsonloader.py 
+|    ├──  logger.py 
+|    └──   urlrequest.py 
+├── requirements.txt
 └── README.md 
 ```
 
@@ -22,5 +24,5 @@
 執行: 
 
 ```bash
-sh install_packages.sh
+pip3 install -r requirements.txt
 ```

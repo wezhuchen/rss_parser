@@ -31,7 +31,7 @@ class ParserCore :
         items = []
         for item in tags:
             items.append(self.map_rss_tag_xml(item, settings["options"], web_id))
-        self.logger.info(items)
+        #self.logger.info(items)
 
     def map_rss_tag_xml(self, item, settings, web_id):
 
