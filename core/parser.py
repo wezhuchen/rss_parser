@@ -14,3 +14,4 @@ class ParserCore :
                                                         settings.get("rss_encoding", 'utf-8'), 
                                                         settings.get("user"), 
                                                         settings.get("password")) 
+        self.logger.info(rss_content)

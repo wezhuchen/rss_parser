@@ -1,6 +1,6 @@
 {
     "mobile01":{
-        "enabled" : 1,
+        "enabled" : 0,
         "test_mode": 1,
         "class_name" : "ParserCore",
         "exec_method_name" : "xml_parser",
@@ -14,6 +14,26 @@
             {
                     "title" : "title",
                     "description" : "content",
+                    "link" : "link",
+                    "pubDate" : "pubDate"
+            }               
+        }        
+    },
+    "theme_udn":{
+        "enabled" : 1,
+        "test_mode": 1,
+        "class_name" : "ParserCore",
+        "exec_method_name" : "xml_parser",
+        "rss" : "https://theme.udn.com/rss/news/1004/6772/7491?ch=theme",
+        "user": "",
+        "password": "",
+        "options" : {
+            "item_format": "item",
+            "have_image_tag": "",
+            "db_mapping" : 
+            {
+                    "title" : "title",
+                    "description" : "description",
                     "link" : "link",
                     "pubDate" : "pubDate"
             }               
