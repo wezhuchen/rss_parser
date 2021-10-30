@@ -1,2 +1,0 @@
-2021-10-30 22:49:08,005 INFO rss_parser: 無法取得 dpa url 內容 (status code 404): https://www.mobile01.com/rss/newtopics.xml
-2021-10-30 22:49:08,006 INFO rss_parser: False
